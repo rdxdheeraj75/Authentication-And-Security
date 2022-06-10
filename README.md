@@ -11,5 +11,10 @@ To encrypt our user's password we will use mongoose-encryption package for this 
 #### AES - Advanced Encryption Standard
 #### CBC - cipher block chaining
 
-## Level-3 
+## Level-3 (Hashing Password)
+While we were encrypting our data we were using a key to encrypt it. If someone found our key then he will be able to decode our data, so in this level we will use the concept of hashing where key is not required. Hashes are unique for same input so when user will try to login and enter his password we wiil generate the hash and we will match it with the stored hash to authorise the user.
+
+#### MD5 (message-digest) algorithm is used here
+
+
 
