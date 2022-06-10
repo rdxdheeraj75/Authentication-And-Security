@@ -22,7 +22,7 @@ Most users keep their password small and repeatedly uses it everywhere. In this 
 #### Benefits of this technique-
 As the time passes we get more computational power in same amount. So instead of changing hashing algorithm we can just increase <strong>Salt Rounds.</strong> We will use <strong>bcrypt</strong> to implement it.
 
-## Level-5 (
+## Level-5 (Cookies and Sessions)
 
 
 
