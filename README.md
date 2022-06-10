@@ -20,7 +20,7 @@ While we were encrypting our data we were using a key to encrypt it. If someone 
 Most users keep their password small and repeatedly uses it everywhere. In this age of super computers small legth passwords can be easily detected so we add some random characters to our password then store it hashed value. It is more secure than just hashing passwords but still it is not enough. Here we use concept of <strong> Salt Rounds </strong> where we hash our already hashed data multiple times.
 
 #### Benefits of this technique-
-As the time passes we get more computational power in same amount. So instead of changing hashing algorithm we can just increase <strong>Salt Rounds</strong>
+As the time passes we get more computational power in same amount. So instead of changing hashing algorithm we can just increase <strong>Salt Rounds.</strong> We will use <strong>bcrypt</strong> to implement it.
 
 ## Level-5 (
 
